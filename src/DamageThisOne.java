@@ -1,42 +1,50 @@
 import java.util.Scanner;
 
-public class DamageThisOne {
+public class DamageThisOne 
+
+
+
+{
 
 	/**
-	 * @author Clyde Brown
-	 * @version 1.0
-	 * @date August 12, 2013
-	 * @param void
+	 * @author smellyyaaaa
+	 * @version 10000000000000.99999
+	 * @date nov.16 1900
+	 * @param nope
 	 */
 	
 	public static void main(String[] args) {
-		//This section declares variables and instantiates the Scanner sc
-		int ticketNumber, stem, checkDigit;
-		Scanner sc = new Scanner(System.in);
+		//This is the song that never ends and i dont know the rest of the song but im just gonna keep typing random words till i dont feel like typing anymore oh and this kinda doesnt make any sense whats so ever but i just wanted to make a really random comment goodbye
+int ticketnumber, stem, check_Digit;
+																								Scanner sc = new Scanner(System.in);
 		
 		/* This section requests input from the user, in the form of a 
-		 * six digit number, then it generates a stem and checkdigit 
-		 * from that number
+		 * a bunch of numbers  
+		 * than i have no clue what it does 
 		 */
 		System.out.print("Please enter a six-digit ticket number: ");
-		ticketNumber = sc.nextInt();
-		stem = ticketNumber / 10;
-		checkDigit = ticketNumber % 10;	
+ticketnumber = sc.nextInt();
+					stem = ticketnumber / 10;
+		check_Digit = ticketnumber % 10;	
 
-		/* This section will check the validity of the ticket number
-		 * and continue to prompt the user for a new ticket number
-		 * while the current number is invalid
+		/* 
 		 */
-		while (checkDigit != stem % 7) {
-			System.out.println("That is NOT a valid ticket number, bucko!");
+		while (check_Digit != stem % 7) {
+	System.out.println("That is NOT a valid ticket number, bucko!");
 			System.out.print("Try again: ");
-			ticketNumber = sc.nextInt();
-			stem = ticketNumber / 10;
-			checkDigit = ticketNumber % 10;	
-		}
+			           ticketnumber = sc.nextInt();
+			
+			           
+			           
+			           stem = ticketnumber / 10;
+check_Digit = ticketnumber % 10;	
+}
 						
 		System.out.println("That is a valid ticket number, well done!");
 	
-	}
+												}
 
-}
+
+
+																																						
+																												}
